@@ -1,0 +1,7 @@
+<div class="Rock"><h1>Rock</h1></div>
+<div class="bot" *ngFor="let music of musics">
+  <a routerLink="/{{music.name}}">
+      <div class="musicImg"><img src="{{music.img}}"/></div>
+    <div class="musicName">{{ music.name }}</div>
+  </a>
+</div>

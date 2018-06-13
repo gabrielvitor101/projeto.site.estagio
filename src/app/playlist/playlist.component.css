@@ -1,0 +1,21 @@
+.musicImg{
+  margin: 5px 5px;
+  width: 214px;
+  height: 176px;
+  background: black;
+  border-radius:4px;
+}
+
+img{
+  width: 96%;
+  height: 100%;
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px;
+}
+
+.musicName{
+  font-size: 15px;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
